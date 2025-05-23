@@ -12,7 +12,7 @@ public class BinaryToDecimal {
 
     public static void main(String[] args) {
         // examples
-        String binary = "1011";
+        String binary = "1001";
         long result = binaryToDecimal(binary);
         System.out.println("Binary " + binary + " = Decimal " + result);
     }

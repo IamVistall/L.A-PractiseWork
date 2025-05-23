@@ -12,7 +12,7 @@ public class CharFrequencyCounter {
     public static void main(String[] args) {
         String input = "hello World";
         java.util.HashMap<Character, Integer> result = countCharFrequency(input);
-        System.out.println("Charater Frequencies in \"" + input + "\":");
+        System.out.println("Character Frequencies in \"" + input + "\":");
         for (Map.Entry<Character, Integer> entry : result.entrySet()) {
             System.out.println("'" + entry.getKey() + "':" + entry.getValue());
         }

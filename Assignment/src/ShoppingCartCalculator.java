@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class ShoppingCartCalculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        var total = 0.0;
+        double total = 0.0;
 
         System.out.println("Enter the prices for 5 items: ");
         for (int i = 1; i <= 5; i++) {
